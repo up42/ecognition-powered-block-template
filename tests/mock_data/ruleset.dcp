@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eCog.Proc UserName="Mkulvie" Company="Trimble Inc." Copyright="" version="20181002" use-reproducable-poly="1" project-unit="1" engine-version="10.0" engine-build="3791" update-topology="0" distance_calculation="CG" resampling_compatibility="0" ver="0">
+	<ruleset-info>
+		<name></name>
+		<author>Mkulvie</author>
+		<tags></tags>
+		<version></version>
+		<description></description>
+		<input></input>
+		<output></output>
+	</ruleset-info>
+	<ParamValueSetCntnr></ParamValueSetCntnr>
+	<ObjectDependencies>
+		<ImgLayers>
+			<ChnlProxyCntnr>
+				<Layers>
+					<ChnlProxy strName="Layer 1" flags="4">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="Layer 2" flags="4">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="Layer 3" flags="4">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="convolution" flags="12">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+				</Layers>
+				<Variables></Variables>
+			</ChnlProxyCntnr>
+		</ImgLayers>
+		<ThmLayers>
+			<ChnlProxyCntnr>
+				<Layers></Layers>
+				<Variables></Variables>
+			</ChnlProxyCntnr>
+		</ThmLayers>
+		<MapLvlProxyCntnr>
+			<MapLvlProxies>
+				<MapLvlProxy strName="New Level" bVrbl="0">
+					<Assignment MapLvl="1" MapName="main"></Assignment>
+					<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+				</MapLvlProxy>
+			</MapLvlProxies>
+			<MapLvlVrblValues></MapLvlVrblValues>
+		</MapLvlProxyCntnr>
+		<ProcVrblCntnr>
+			<ProcVrbl iId="0" eType="1">
+				<DValue value="C:\Temp" type="string"></DValue>
+				<NameExpr strTextExpr="output"></NameExpr>
+				<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+				<SharedInfo bShared="0" strInstGUID=""></SharedInfo>
+			</ProcVrbl>
+		</ProcVrblCntnr>
+		<ClssHrchy EvalInvalid="1" MinProb="0.10000000000000000555111512312578270212" NNSlope="0.20000000000000001110223024625156540424" RdiResamplOptns="3">
+			<MapUnit>
+				<Map MapName="main" Unit="1"></Map>
+			</MapUnit>
+			<AllClss></AllClss>
+			<PropTree version="20100426">
+				<AllProps>
+					<PropDscr Flag="65538" strUserName="Mkulvie" tChngTime="1605269111" group_id="ext.geom.object.prop">
+						<PropDscrId GUID="AF0D7167-ADE8-4240-AAA4-AC2C188E9AF5" InstID="Number of pixels"></PropDscrId>
+						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+						<Params></Params>
+					</PropDscr>
+					<PropDscr Flag="2147483650" strUserName="Mkulvie" tChngTime="1605269256" group_id="global.object.vrbl.vrbl_arr.prop">
+						<PropDscrId GUID="5EB15E4B-593A-432f-A0ED-9B38627475D2" InstID="output"></PropDscrId>
+						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+						<Params>
+							<DValue value="_output" type="string" name="NameExpr"></DValue>
+							<DValue value="C:\Temp" type="string" name="vVal"></DValue>
+							<DValue value="0" type="bool" name="bShared"></DValue>
+							<DValue value="" type="string" name="strInstGUID"></DValue>
+						</Params>
+					</PropDscr>
+				</AllProps>
+				<UserGroups></UserGroups>
+			</PropTree>
+			<Brightness>
+				<Map MapName="main">
+					<ChnlWghtBrght>
+						<BrghtWght val="1." chnl="0"></BrghtWght>
+						<BrghtWght val="1." chnl="1"></BrghtWght>
+						<BrghtWght val="1." chnl="2"></BrghtWght>
+						<BrghtWght val="0." chnl="3"></BrghtWght>
+					</ChnlWghtBrght>
+				</Map>
+			</Brightness>
+			<AllVrblClss></AllVrblClss>
+			<AllSubClss></AllSubClss>
+			<AllTerm></AllTerm>
+		</ClssHrchy>
+		<MapVrblCntnr></MapVrblCntnr>
+		<FtrListVrblCntnr></FtrListVrblCntnr>
+		<CoordVrblCntnr></CoordVrblCntnr>
+		<ROIVrblCntnr></ROIVrblCntnr>
+		<ImgObjListVrblCntnr></ImgObjListVrblCntnr>
+		<ArrayCntnr>
+			<Arrays></Arrays>
+			<ArrayVrbls></ArrayVrbls>
+		</ArrayCntnr>
+		<Smpls>
+			<AllClss></AllClss>
+		</Smpls>
+		<plugin-list>
+			<plugin name="eCognition Filtering Algorithms" version="0.1"></plugin>
+			<plugin name="eCognition Internal Export Process Algorithms" version="0.1"></plugin>
+			<plugin name="eCognition Internal Process Algorithms" version="0.1"></plugin>
+		</plugin-list>
+	</ObjectDependencies>
+	<CustProcAlgrList></CustProcAlgrList>
+	<ExternalCustProcAlgrList></ExternalCustProcAlgrList>
+	<ProcessList>
+		<ProcBase Name="do" bLoopChg="0" bExpand="1" bActive="1" bAutoName="1" bSubrtn="0">
+			<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+			<vrblValMaxCycle>
+				<DValue value="1." type="double"></DValue>
+			</vrblValMaxCycle>
+			<Algorithm guid="A8BA5775-CC39-4194-9A6A-A64872EE1F81">
+				<Params></Params>
+			</Algorithm>
+			<Domain guid="CC9F2C30-4DB0-4ef2-B864-63560D1D6BF3">
+				<Params>
+					<DValue type="threshold" name="valThrsh"></DValue>
+					<DValue type="threshold" name="valThrsh2"></DValue>
+					<DValue value="From Parent" type="string" name="valMap"></DValue>
+				</Params>
+			</Domain>
+			<SubProc>
+				<ProcBase Name="convolution filter (Gauss Blur, 3 x 3 x 1): 'Layer 1' => 'convolution'" bLoopChg="0" bExpand="1" bActive="1" bAutoName="1" bSubrtn="0">
+					<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+					<vrblValMaxCycle>
+						<DValue value="1." type="double"></DValue>
+					</vrblValMaxCycle>
+					<Algorithm guid="63237FF0-C518-4ec4-89EB-76FFC49DB12A">
+						<Params>
+							<DValue value="2" type="int" name="iFilterType"></DValue>
+							<DValue value="0" type="bool" name="m_bNormalize"></DValue>
+							<DValue value="1." type="double" name="mParameter"></DValue>
+							<DValue value="0,1,0&#xD;&#xA;1,3,1&#xD;&#xA;0,1,0" type="string" name="sCstmKrnl"></DValue>
+							<DValue value="3" type="int" name="mKernelSizeXY"></DValue>
+							<DValue type="vector" name="mKernelClssFltr">
+								<Values>
+									<DValue value="Disabled" type="string" indx="0"></DValue>
+								</Values>
+							</DValue>
+							<DValue type="img_chnl" value="Layer 1" scope="" name="pSourceChnl"></DValue>
+							<DValue value="none" type="string" name="valROI"></DValue>
+							<DValue type="img_chnl" value="convolution" scope="" name="valTargetChnl"></DValue>
+							<DValue value="1" type="bool" name="bIsTargetVsbl"></DValue>
+							<DValue value="32" type="int" name="eTargetType"></DValue>
+						</Params>
+					</Algorithm>
+					<Domain guid="682A3AA1-9F4F-4dae-9E44-5015DF867712">
+						<Params>
+							<DValue type="threshold" name="valThrsh"></DValue>
+							<DValue type="threshold" name="valThrsh2"></DValue>
+							<DValue value="From Parent" type="string" name="valMap"></DValue>
+						</Params>
+					</Domain>
+					<SubProc></SubProc>
+				</ProcBase>
+				<ProcBase Name="multi-resolution: 42 [shape:0.1 compct.:0.5] creating 'New Level'" bLoopChg="0" bExpand="1" bActive="1" bAutoName="1" bSubrtn="0">
+					<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+					<vrblValMaxCycle>
+						<DValue value="1." type="double"></DValue>
+					</vrblValMaxCycle>
+					<Algorithm guid="6534F2E1-485B-406f-B990-350824399FA8">
+						<Params>
+							<DValue value="1" type="bool" name="bDoOverwrite"></DValue>
+							<DValue type="lvlName" name="valMapLvl">
+								<MapLvlProxy strName="New Level" bVrbl="0">
+									<Assignment MapLvl="1" MapName="main"></Assignment>
+									<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+								</MapLvlProxy>
+							</DValue>
+							<DValue value="0" type="int" name="eLvlUsage"></DValue>
+							<DValue value="-1" type="int" name="iCompMode"></DValue>
+							<DValue type="vector" name="vImgLayerWghtVarOrValue">
+								<Values>
+									<DValue type="vector" indx="0">
+									<Values>
+									<DValue type="img_chnl" value="convolution" scope="" indx="0"></DValue>
+									<DValue value="1." type="double" indx="1"></DValue>
+									</Values>
+									</DValue>
+									<DValue type="vector" indx="1">
+									<Values>
+									<DValue type="img_chnl" value="Layer 1" scope="" indx="0"></DValue>
+									<DValue value="1." type="double" indx="1"></DValue>
+									</Values>
+									</DValue>
+									<DValue type="vector" indx="2">
+									<Values>
+									<DValue type="img_chnl" value="Layer 2" scope="" indx="0"></DValue>
+									<DValue value="1." type="double" indx="1"></DValue>
+									</Values>
+									</DValue>
+									<DValue type="vector" indx="3">
+									<Values>
+									<DValue type="img_chnl" value="Layer 3" scope="" indx="0"></DValue>
+									<DValue value="1." type="double" indx="1"></DValue>
+									</Values>
+									</DValue>
+								</Values>
+							</DValue>
+							<DValue type="vector" name="vImgLayerWght">
+								<Values>
+									<DValue type="vector" indx="0">
+									<Values>
+									<DValue type="img_chnl" value="convolution" scope="" indx="0"></DValue>
+									<DValue value="1." type="double" indx="1"></DValue>
+									</Values>
+									</DValue>
+									<DValue type="vector" indx="1">
+									<Values>
+									<DValue type="img_chnl" value="Layer 1" scope="" indx="0"></DValue>
+									<DValue value="1." type="double" indx="1"></DValue>
+									</Values>
+									</DValue>
+									<DValue type="vector" indx="2">
+									<Values>
+									<DValue type="img_chnl" value="Layer 2" scope="" indx="0"></DValue>
+									<DValue value="1." type="double" indx="1"></DValue>
+									</Values>
+									</DValue>
+									<DValue type="vector" indx="3">
+									<Values>
+									<DValue type="img_chnl" value="Layer 3" scope="" indx="0"></DValue>
+									<DValue value="1." type="double" indx="1"></DValue>
+									</Values>
+									</DValue>
+								</Values>
+							</DValue>
+							<DValue type="vector" name="vThmLayers">
+								<Values></Values>
+							</DValue>
+							<DValue value="42." type="double" name="vrblValScale"></DValue>
+							<DValue value="0.10000000000000000555111512312578270212" type="double" name="vrblHCShape"></DValue>
+							<DValue value="0.5" type="double" name="vrblHCArea"></DValue>
+						</Params>
+					</Algorithm>
+					<Domain guid="682A3AA1-9F4F-4dae-9E44-5015DF867712">
+						<Params>
+							<DValue type="threshold" name="valThrsh"></DValue>
+							<DValue type="threshold" name="valThrsh2"></DValue>
+							<DValue value="From Parent" type="string" name="valMap"></DValue>
+						</Params>
+					</Domain>
+					<SubProc></SubProc>
+				</ProcBase>
+				<ProcBase Name="at  New Level: export object shapes to {:Variable:output}\objects.{:Ext}" bLoopChg="0" bExpand="1" bActive="1" bAutoName="1" bSubrtn="0">
+					<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+					<vrblValMaxCycle>
+						<DValue value="1." type="double"></DValue>
+					</vrblValMaxCycle>
+					<Algorithm guid="E8AAA2C4-4DCA-4684-A918-87E7C53CDC8D">
+						<Params>
+							<DValue value="1" type="int" name="eExportMode"></DValue>
+							<DValue value="ObjectShapes" type="string" name="strExportItem"></DValue>
+							<DValue value="-1" type="procVarId" name="vrblExportItem"></DValue>
+							<DValue value="{:Variable:output}\objects.{:Ext}" type="string" name="strExportPath"></DValue>
+							<DValue value="0" type="bool" name="bExportSeries"></DValue>
+							<DValue value="" type="string" name="strExportItemInfo"></DValue>
+							<DValue value="temporary" type="string" name="valExportTempLayer"></DValue>
+							<DValue type="vector" name="vColInfo">
+								<Values></Values>
+							</DValue>
+							<DValue value="0" type="bool" name="bUseFtrList"></DValue>
+							<DValue value="Click to edit attribute table" type="string" name="EditAttrTbl"></DValue>
+							<DValue value="-1" type="procVarId" name="FeatureListAttrTbl"></DValue>
+							<DValue value="3" type="int" name="eGeomType"></DValue>
+							<DValue value="5" type="int" name="eExprtType"></DValue>
+							<DValue value="1" type="bool" name="bShpUseGeocoding"></DValue>
+							<DValue value="0" type="int" name="eCoordOrient"></DValue>
+							<DValue value="SHP" type="string" name="eExprtFormat"></DValue>
+							<DValue value="" type="string" name="featClassName"></DValue>
+							<DValue type="img_chnl" value="" name="pRefChnl"></DValue>
+							<DValue value="{:ArcSDE.Connect.Dir}\default.das" type="string" name="exprtStorageLocFile"></DValue>
+							<DValue value="" type="string" name="spatDomainOffset"></DValue>
+							<DValue value="" type="string" name="spatDomainPrec"></DValue>
+						</Params>
+					</Algorithm>
+					<Domain guid="CED621BD-F4D1-4ffa-A2F6-DB2BB1913E8C">
+						<Params>
+							<DValue type="lvlName" name="valMapLvl">
+								<MapLvlProxy strName="New Level" bVrbl="0">
+									<Assignment MapLvl="1" MapName="main"></Assignment>
+									<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+								</MapLvlProxy>
+							</DValue>
+							<DValue type="vector" name="mClssFltr">
+								<Values>
+									<DValue value="Disabled" type="string" indx="0"></DValue>
+								</Values>
+							</DValue>
+							<DValue type="threshold" name="valThrsh"></DValue>
+							<DValue type="threshold" name="valThrsh2"></DValue>
+							<DValue value="From Parent" type="string" name="valMap"></DValue>
+							<DValue value="From Parent" type="string" name="valROI"></DValue>
+							<DValue value="0" type="int" name="iNumMaxObj"></DValue>
+							<DValue value="4" type="int" name="iVersion"></DValue>
+							<DValue value="-1" type="int" name="iOldLvl"></DValue>
+							<DValue value="0" type="int" name="iOldDsplLvl"></DValue>
+							<DValue value="0" type="int" name="iOldDsplNumLvl"></DValue>
+						</Params>
+					</Domain>
+					<SubProc></SubProc>
+				</ProcBase>
+				<ProcBase Name="export image to to ExportImage" bLoopChg="0" bExpand="1" bActive="1" bAutoName="1" bSubrtn="0">
+					<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+					<vrblValMaxCycle>
+						<DValue value="1." type="double"></DValue>
+					</vrblValMaxCycle>
+					<Algorithm guid="C35F172C-073A-4929-B0B4-329ACC044531">
+						<Params>
+							<DValue value="0" type="int" name="eExportMode"></DValue>
+							<DValue value="ExportImage" type="string" name="strExportItem"></DValue>
+							<DValue value="-1" type="procVarId" name="vrblExportItem"></DValue>
+							<DValue value="{:Variable:output}\convolution.{:Ext}" type="string" name="strExportPath"></DValue>
+							<DValue value="0" type="bool" name="bExportSeries"></DValue>
+							<DValue value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;ExportInfo SingleFilePerWksp=&quot;0&quot; SingleFilePerItem=&quot;1&quot; ExportItem=&quot;ExportImage&quot; ExportType=&quot;Raster&quot; DriverID=&quot;TIF&quot; ExportPath=&quot;{:Variable:output}\convolution.{:Ext}&quot;>&lt;/ExportInfo>" type="string" name="strExportItemInfo"></DValue>
+							<DValue value="temporary" type="string" name="valExportTempLayer"></DValue>
+							<DValue type="vector" name="vImgChnls">
+								<Values>
+									<DValue type="img_chnl" value="convolution" scope="" indx="0"></DValue>
+								</Values>
+							</DValue>
+							<DValue value="TIF" type="string" name="sDrvrID"></DValue>
+							<DValue value="0" type="int" name="eShiftX"></DValue>
+							<DValue value="0" type="int" name="eShiftY"></DValue>
+							<DValue value="0" type="bool" name="bExportExif"></DValue>
+						</Params>
+					</Algorithm>
+					<Domain guid="CC9F2C30-4DB0-4ef2-B864-63560D1D6BF3">
+						<Params>
+							<DValue type="threshold" name="valThrsh"></DValue>
+							<DValue type="threshold" name="valThrsh2"></DValue>
+							<DValue value="From Parent" type="string" name="valMap"></DValue>
+						</Params>
+					</Domain>
+					<SubProc></SubProc>
+				</ProcBase>
+			</SubProc>
+		</ProcBase>
+	</ProcessList>
+	<ExportedItems>
+		<item name="ExportImage" type="Raster" driver="TIF" ext="tif" path="{:Variable:output}\convolution.{:Ext}"></item>
+	</ExportedItems>
+	<LcnsIds></LcnsIds>
+</eCog.Proc>
