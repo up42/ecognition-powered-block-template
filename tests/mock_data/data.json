@@ -1,0 +1,86 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [
+        13.360399779242067,
+        52.509606353102164,
+        13.369751436167787,
+        52.51308804043553
+      ],
+      "orderID": "0170e864-b1c5-4ce3-b53d-95c2eb117eaf",
+      "fileSize": 1994,
+      "id": "3159422e-6c53-4d97-9186-f52626f56b00",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.369751436167787,
+              52.509606353102164
+            ],
+            [
+              13.360399779242067,
+              52.509606353102164
+            ],
+            [
+              13.360399779242067,
+              52.51308804043553
+            ],
+            [
+              13.369751436167787,
+              52.51308804043553
+            ],
+            [
+              13.369751436167787,
+              52.509606353102164
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "acquisitionDate": "2019-09-06T10:39:13.555Z",
+        "acquisitionIdentifier": "DS_PHR1A_201909061039135_FR1_PX_E013N52_0312_03147",
+        "acquisitionStation": "FR1",
+        "archivingCenter": "FR1",
+        "azimuthAngle": 180.0481345862281,
+        "cloudCover": 26.28,
+        "commercialReference": "SO19036970-025",
+        "constellation": "PHR",
+        "correlationId": "9d187620-3335-4ec0-b961-7631a7bf3a6d",
+        "customerReference": "Airbus DS Geo SA",
+        "expirationDate": "2020-09-12T12:55:17.232243586Z",
+        "format": "image/jp2",
+        "id": "3159422e-6c53-4d97-9186-f52626f56b00",
+        "illuminationAzimuthAngle": 170.8583155573666,
+        "illuminationElevationAngle": 43.86352676622199,
+        "incidenceAngle": 26.65586161069001,
+        "incidenceAngleAcrossTrack": -21.55659155953988,
+        "incidenceAngleAlongTrack": -17.20830993867963,
+        "organisationName": "AIRBUS DS GEO",
+        "parentIdentifier": "DS_PHR1A_201909061039135_FR1_PX_E013N52_0312_03147",
+        "platform": "PHR1A",
+        "processingCenter": "FCMUGC",
+        "processingDate": "2019-09-06T20:45:38.808",
+        "processingLevel": "SENSOR",
+        "processorName": "IPU V_05_03vV_05_03",
+        "productCategory": "image",
+        "productType": "bundle",
+        "productionStatus": "IN_CLOUD",
+        "publicationDate": "2019-09-13T12:55:17.23223781Z",
+        "qualified": false,
+        "resolution": 0.5,
+        "sensorType": "OPTICAL",
+        "snowCover": 0,
+        "sourceIdentifier": "DS_PHR1A_201909061038365_FR1_PX_E013N52_0312_03143",
+        "spectralRange": "VISIBLE",
+        "title": "DS_PHR1A_201909061038365_FR1_PX_E013N52_0312_03143",
+        "workspaceId": "0e33eb50-3404-48ad-b835-b0b4b72a5625",
+        "workspaceName": "public",
+        "workspaceTitle": "Public",
+        "up42.data_path": "3159422e-6c53-4d97-9186-f52626f56b00/0170e864-b1c5-4ce3-b53d-95c2eb117eaf_ms.tif"
+      }
+    }
+  ]
+}

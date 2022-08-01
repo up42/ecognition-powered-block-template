@@ -1,0 +1,40 @@
+{
+    "_up42_specification_version": 2,
+    "name": "ecognition-block-template",
+    "type": "processing",
+    "tags": [
+        "ecognition",
+        "imagery",
+        "processing"
+    ],
+    "display_name": "Ecognition Block Template",
+    "description": "Enables the user to integrate an ecognition ruleset into an UP42 custom processing block.",
+    "parameters": {},
+    "machine": {
+	    "type": "xlarge"
+    },
+    "input_capabilities": {
+        "raster": {
+        "up42_standard": {
+          "format": "GTiff",
+          "sensor": "Sentinel2",
+          "dtype": "uint8",
+          "resolution": 10,
+          "bands": ["red", "green", "blue"],
+          "processing_level": "l2"
+      }
+        }
+    },
+    "output_capabilities": {
+        "raster": {
+            "up42_standard": {
+                "format": "GTiff",
+                "bands": ">",
+                "sensor": ">",
+                "resolution": ">",
+                "dtype": ">",
+                "processing_level": ">"
+            }
+        }
+    }
+}

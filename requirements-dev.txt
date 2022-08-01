@@ -1,0 +1,9 @@
+pytest
+pytest-pylint
+mypy
+mypy-extensions
+pytest-cov
+pytest-mypy
+coverage-badge
+types-mock
+mock
