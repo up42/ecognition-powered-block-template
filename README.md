@@ -93,10 +93,10 @@ to the UP42 platform.
 [runtime-parameters]: https://docs.up42.com/processing-platform/custom-blocks/parameters#processing-parameters
 
 <!--- All Repository Parmalinks --->
-[repo-manifest-block-name]: https://github.com/up42/ecognition-block-template/blob/6e5efd721c94f5ebc5d33300bc09b8018fcc2836/UP42Manifest.json#L3
-[repo-manifest-machine-types]: https://github.com/up42/ecognition-block-template/blob/6e5efd721c94f5ebc5d33300bc09b8018fcc2836/UP42Manifest.json#L13-L15
-[repo-manifest-output-capabilities]: https://github.com/up42/ecognition-block-template/blob/6e5efd721c94f5ebc5d33300bc09b8018fcc2836/UP42Manifest.json#L28-L39
-[repo-manifest-ruleset-config]: https://github.com/up42/ecognition-block-template/blob/6e5efd721c94f5ebc5d33300bc09b8018fcc2836/src/config.py#L11
-[repo-manifest-input-capabilities]: https://github.com/up42/ecognition-block-template/blob/6e5efd721c94f5ebc5d33300bc09b8018fcc2836/UP42Manifest.json#L16-L27
-[repo-process-block]: https://github.com/up42/ecognition-block-template/blob/6e5efd721c94f5ebc5d33300bc09b8018fcc2836/src/ecognition.py#L164-L191
-[repo-manifest-parameters]: https://github.com/up42/ecognition-block-template/blob/6e5efd721c94f5ebc5d33300bc09b8018fcc2836/UP42Manifest.json#L12
+[repo-manifest-block-name]: https://github.com/up42/ecognition-powered-block-template/blob/master/UP42Manifest.json#L3
+[repo-manifest-machine-types]: https://github.com/up42/ecognition-powered-block-template/blob/master/UP42Manifest.json#L13-L15
+[repo-manifest-output-capabilities]: https://github.com/up42/ecognition-powered-block-template/blob/master/UP42Manifest.json#L28-L39
+[repo-manifest-ruleset-config]: https://github.com/up42/ecognition-powered-block-template/blob/master/src/config.py#L11
+[repo-manifest-input-capabilities]: https://github.com/up42/ecognition-powered-block-template/blob/master/UP42Manifest.json#L16-L27
+[repo-process-block]: https://github.com/up42/ecognition-powered-block-template/blob/master/src/ecognition.py#L164-L191
+[repo-manifest-parameters]: https://github.com/up42/ecognition-powered-block-template/blob/master/UP42Manifest.json#L12
